@@ -1675,7 +1675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 958965ba219c8a64481d6e3d546d176c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: 10
+  timeLeft: 300
   gameOverScene: 2
   countDwnTime: {fileID: 435763491}
 --- !u!224 &435763490
@@ -1694,8 +1694,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -327.49902, y: 236.89838}
-  m_SizeDelta: {x: 205.7576, y: 45.2099}
+  m_AnchoredPosition: {x: -709.7953, y: 420.81305}
+  m_SizeDelta: {x: 500.4082, y: 238.3698}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &435763491
 MonoBehaviour:
@@ -1719,11 +1719,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 100
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2147,10 +2147,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -2177,7 +2177,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &468611248
 RectTransform:
@@ -3851,8 +3851,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.73644435, y: 0.5}
-  m_AnchoredPosition: {x: -511, y: -21}
-  m_SizeDelta: {x: -106, y: 100}
+  m_AnchoredPosition: {x: -877.47, y: -22}
+  m_SizeDelta: {x: -255.6401, y: 81.5827}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &838112380
 MonoBehaviour:
@@ -5132,8 +5132,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00027466, y: -0.0013428}
-  m_SizeDelta: {x: 871, y: 519}
+  m_AnchoredPosition: {x: 0.0010843, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1134404218
 MonoBehaviour:
@@ -5379,8 +5379,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0005493164, y: 148.33905}
-  m_SizeDelta: {x: 871, y: 222.312}
+  m_AnchoredPosition: {x: -210.33, y: 355.26}
+  m_SizeDelta: {x: 1499.3, y: 369.48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1172157239
 MonoBehaviour:
@@ -5404,7 +5404,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -5415,9 +5415,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: " Pick up Packages and drop them off to house before the timer runs out\n\n
-    Bumping into houses, trees and rocks slows you down\n\n         Increases the
-    speed of your car (Doesn't stack)"
+  m_Text: " Pick up Packages and drop them off to house before the timer runs out\n\nBumping
+    into houses, trees and rocks slows you down\n\n         Increases the speed of
+    your car (Doesn't stack)"
 --- !u!222 &1172157240
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7607,8 +7607,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0005493164, y: -114.16}
-  m_SizeDelta: {x: 871, y: 290.6854}
+  m_AnchoredPosition: {x: -210.32996, y: -80.72211}
+  m_SizeDelta: {x: 1499.3, y: 502.4836}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1914469102
 MonoBehaviour:
@@ -7632,7 +7632,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
